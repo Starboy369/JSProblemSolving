@@ -1,3 +1,6 @@
+
+var repetetionarray  =[]
+
 function findhappynumber(n){
     var arr = n.toString().split('')
     console.log("array", arr)
@@ -6,8 +9,11 @@ function findhappynumber(n){
      console.log(sum)
       if(sum ==1){
       return true
+   }else if(repetetionarray.includes(sum)) { //to avoid infinite loop
+    return false
    }else {
-     var number =sum;
-     findhappynumber(number)// recursive function
+    repetetionarray.push(sum)
+    var number =sum;
+    findhappynumber(number)    // recursive function
    }
 }
