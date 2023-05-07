@@ -14,6 +14,6 @@ function findhappynumber(n){
    }else {
     repetetionarray.push(sum)
     var number =sum;
-    findhappynumber(number)    // recursive function
+    return findhappynumber(number)    // recursive function
    }
 }
