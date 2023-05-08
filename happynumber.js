@@ -17,3 +17,5 @@ function findhappynumber(n){
     return findhappynumber(number)    // recursive function
    }
 }
+
+//here is the link where you can find the explanation - https://medium.com/@rgakshay336/leetcode-happynumber-in-javascript-f33eef09aa81
