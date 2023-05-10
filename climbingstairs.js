@@ -18,7 +18,7 @@ function climbingstairs(n){
 // 2. 1 step + 2 steps
 // 3. 2 steps + 1 step
 
-//it forms a series where Cn = Cn-1 + Cn-2 where n >0
+//it forms a series where Cn = Cn-1 + Cn-2 where n >0   
 var seriesarr=[1,2]
 if(n ==1){
     return 1
